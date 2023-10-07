@@ -1,0 +1,210 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.navbar {
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.search{
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    /* padding-right: 6rem; */
+
+}
+
+.navbar ul li {
+    list-style: none;
+    /* padding: 20px; */
+    margin: 0 10px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(255, 179, 129);
+    color: white;
+}
+
+
+
+
+
+/* .navbar ul li :hover {
+    font-size: 1.1rem;
+    color: grey;
+} */
+
+#search {
+    padding: 11px;
+    /* padding-top: 12px; */
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /* position: relative;
+     right: 9.1rem; */
+    background-color: rgba(177, 169, 169, 0.116);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon1{
+    display: none;
+}
+
+.box1 {
+    padding: 12px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: rgba(177, 169, 169, 0.116);
+    border: 2px solid white;
+    outline: none;
+}
+
+.box1:focus{
+    border: 2px solid rgb(255, 199, 173);
+}
+
+.logo {
+    width: 11%;
+    cursor: pointer;
+}
+
+.container{
+    height: 130vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec1{
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(236, 171, 133);
+}
+
+.sec1 h1{
+    font-size: 2.6rem;
+    color: white;
+}
+
+.sec1 h2{
+    color: rgb(255, 237, 226);
+}
+
+.sec2{
+    width: 80%;
+    height: 60%;
+    /* border: 2px solid red; */
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    /* background-color: rgb(212, 206, 206); */
+    /* color: rgb(241, 116, 32); */
+    color: rgb(58, 55, 55);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sec2 p {
+    font-size: 1.5rem;
+}
+
+.payment-info{
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+
+
+.payment-info a{
+    padding: 10px;
+    background-color: rgb(94, 97, 255);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.bank-info{
+    width: 100%;
+    height: 40%;
+     /* border: 2px solid blue; */
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+     flex-direction: column;
+}
+
+
+
+.bank-info span{
+    color: rgb(255, 77, 46);
+}
+
+.note{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    
+}
+
+.note p{
+    font-size: 1.2rem;
+}
+
+.note span{
+    color: red;
+}
+
+.note i{
+    color: green;
+}
